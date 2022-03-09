@@ -1,0 +1,174 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #1D63DC;
+    backdrop-filter: blur(10px);
+    
+}
+header{
+    border-bottom: solid 2px #0836C1;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 41px;
+    margin: 16px;
+}
+nav h1{
+    position: absolute;
+    left: 49px;
+    color:beige;
+    font-size: 36px;
+ }
+    
+    
+
+.links{
+    position: absolute;
+    right:49px;
+     
+
+    
+    
+}
+ .links a{
+     text-decoration: none;
+     margin-right:10px;
+     margin-left: 10px;
+     color:beige;
+     font-size: 15px;
+     transition: 0.5s;
+ }
+ .links a:hover{
+     border: 2px solid ;
+     border-radius: 5px;
+     transition: 0.2s;
+  
+     color:black;
+ }
+ /*end header*/
+ /*start landing*/
+ .landing{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     
+ }
+ .landing img{
+    width: 473px;
+    margin-top: 100px;
+    margin-left: 56px;
+    border-right: 2px solid #0836C1;
+    border-right-width: 5px;
+    border-top: 2px solid #0836C1;
+    border-top-width: 5px;
+    height: 492px;
+ }
+ .texts{
+    position: absolute;
+    left: 691px;
+    color:beige;
+ }
+ .texts h2{
+     font-size: 52px;
+ }
+ .texts h3{
+    position: relative;
+    top: -77px;
+    right: -95px
+ }
+ /*end of landing*/
+ /*start of portfolio*/
+ .portofolio{
+    padding: 40px;
+     
+    margin: 22px;
+ }
+ .portofolio h1{
+    padding: 40px;
+    margin-top: 20px;
+    margin: 22px;
+    text-align: center;
+    font-size: 55px;
+    color:beige;
+
+ }
+ .grid-container{
+     
+    display: grid;
+     
+    row-gap: 50px;
+    padding: 23px;
+     
+
+
+ }
+ .grid-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .text{
+     display: flex;
+     flex-direction: column;
+     padding: 20px;
+     margin-left:60px;
+
+ }
+ 
+ .text a h2{
+     text-decoration: none;
+     color:#0836C1;
+     cursor: pointer;
+     text-align: center;
+     background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2px );
+-webkit-backdrop-filter: blur( 2px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+transition: 1s;
+     
+ }
+ .text a {
+     text-decoration: none;
+     transition: 2s;
+ }
+ .text a  :hover{
+     background-color: #1D63DC;
+     color:black;
+     transition: 1s;
+ }
+ .portofolio img{
+    object-fit: cover;
+    width:230px;
+    height:230px;
+
+ }
+ /*end portofolio*/
+ /*start resume*/
+ .resume h1{
+    padding: 40px;
+    margin-top: 20px;
+    margin: 22px;
+    text-align: center;
+    font-size: 55px;
+    color:beige;
+
+ }
+ .first{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px;
+    margin: 30px;
+    
+ }
+  
+    
+ .first h2{
+    margin-right: 30px;
+    font-size: 98px;
+ }
+  
+ }
